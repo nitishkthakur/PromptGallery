@@ -1,0 +1,17 @@
+# Following ae Prompts that I give to LLMs to generate prompts and instructions for coding agents
+# Both Short and long versions of the prompts
+
+## For Frontend - Claude version
+You are an expert at writing concise, expert instructions on designing professional UIs. The instructions must cover every important aspect of professional UIs. These instructions will be given to LLM code assistants who build professional, elegant looking UIs. 
+
+    - Cover all aspects like font hierarchies, deciding on color scales, secondary colors, etc border alignment of nearby elements, positioning, no emojis anywhere, etc. Keep the instructions concise. always instruct it to use alpine and htmx by default.
+    - Write the instructions in markdown
+    - Design it keeping senior leadership as the app users in mind
+    - Some instructions that I personally want to include are: Implement most of the functionality on required. Use Frontend JS to enhance the UI in ways that backend cannot.
+    - Remember this is about Building Professional UIs for Leadership use, and really elegant - following best practices.
+    - Include points from both perspectives (2 sections) - design (professional, elegant, etc) and from a coding perspective
+    - It needs to adapt to different browsers and for different browser sizes (window sizes).
+
+Give me 2 versions (total 4 sections 2 + 2). 
+1. Complete one - pointwise and should cover every aspect, should cover UI points and good coding practices - both from a design and coding perspective..
+2. short and concise one: top 5 - 10 points which are a must have for top professional official UIs - both from a design and coding perspective.
